@@ -1,0 +1,12 @@
+name: skillbox_6
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - requests
+  - selenium=4.10
+  - webdriver-manager
+  - pytest
+  - pip:
+      - allure-pytest
+      - flake8
