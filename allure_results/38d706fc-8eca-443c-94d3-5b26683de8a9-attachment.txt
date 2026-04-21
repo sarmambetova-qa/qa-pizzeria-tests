@@ -1,0 +1,10 @@
+INFO     root:browser.py:13 Prepare chrome browser...
+DEBUG    urllib3.connectionpool:connectionpool.py:241 Starting new HTTP connection (1): 127.0.0.1:4444
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session HTTP/1.1" 200 0
+INFO     root:browser.py:30 Browser chrome has been started.
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/9a7930423ee95dea8c458276e74e8a8e/url HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/9a7930423ee95dea8c458276e74e8a8e/elements HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/9a7930423ee95dea8c458276e74e8a8e/execute/sync HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "GET /wd/hub/session/9a7930423ee95dea8c458276e74e8a8e/url HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/9a7930423ee95dea8c458276e74e8a8e/element HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "GET /wd/hub/session/9a7930423ee95dea8c458276e74e8a8e/element/f.CCA6443EA527E07E2F7BCDC0FCD7423C.d.D1B2511FE8509B98000417C7873B8942.e.253/text HTTP/1.1" 200 0

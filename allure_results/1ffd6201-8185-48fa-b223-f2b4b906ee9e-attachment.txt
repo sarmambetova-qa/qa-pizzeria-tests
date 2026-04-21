@@ -1,0 +1,15 @@
+INFO     root:browser.py:13 Prepare chrome browser...
+DEBUG    urllib3.connectionpool:connectionpool.py:241 Starting new HTTP connection (1): 127.0.0.1:4444
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session HTTP/1.1" 200 0
+INFO     root:browser.py:30 Browser chrome has been started.
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/04502733e0568c522c7f7824b1065af7/url HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/04502733e0568c522c7f7824b1065af7/element HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/04502733e0568c522c7f7824b1065af7/execute/sync HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "GET /wd/hub/session/04502733e0568c522c7f7824b1065af7/url HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/04502733e0568c522c7f7824b1065af7/element HTTP/1.1" 404 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/04502733e0568c522c7f7824b1065af7/element HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/04502733e0568c522c7f7824b1065af7/element/f.8E137AC85937DF92666355C8663D2DEA.d.F3BCFA8C2BCAF0F91278CCF0A95AC05A.e.181/click HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "POST /wd/hub/session/04502733e0568c522c7f7824b1065af7/element HTTP/1.1" 200 0
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "GET /wd/hub/session/04502733e0568c522c7f7824b1065af7/element/f.8E137AC85937DF92666355C8663D2DEA.d.F3BCFA8C2BCAF0F91278CCF0A95AC05A.e.181/text HTTP/1.1" 200 0
+INFO     root:browser.py:32 Close chrome browser...
+DEBUG    urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4444 "DELETE /wd/hub/session/04502733e0568c522c7f7824b1065af7 HTTP/1.1" 200 0

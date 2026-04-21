@@ -13,6 +13,7 @@ def set_up_browser():
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
     # driver.maximize_window()
+    # driver.implicitly_wait(20)
 
     yield driver
     time.sleep(3)
